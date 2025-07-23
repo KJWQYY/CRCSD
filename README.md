@@ -10,11 +10,10 @@ The project requires about 220G storage and 30G memory to run
    -torchvision 0.15.2  
   
 ## Prepare Dataset
-1. Prepare features
-   Extract visual features.Backbone is ResNet-50 Pretrained on ImageNet.  
-   Extract board features.Using Gemma-3-4B to build a constrained shot description, we will provide a Shotboard.  
-2. Download MovieNet dataset label: https://drive.google.com/drive/folders/1F-uqCKnhtSdQKcDUiL3dRcLOrAxHargz  
-3. Generate dataset using CRCSD/dataloader/supervised_get_movienet.py
+1. Extract visual features.Backbone is ResNet-50 Pretrained on ImageNet.
+2. Extract board features.Using Gemma-3-4B to build a constrained shot description, we will provide a Shotboard.  
+3. Download MovieNet dataset label: https://drive.google.com/drive/folders/1F-uqCKnhtSdQKcDUiL3dRcLOrAxHargz  
+4. Generate dataset using CRCSD/dataloader/supervised_get_movienet.py
 
 ## Train and Test
 run CRCSD/main.py
