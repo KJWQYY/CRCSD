@@ -268,7 +268,7 @@ def gen_clue_all(ft_path, ft_path_t, lb_path, gph_path, gph_path_t, win_size=2, 
 if __name__=='__main__':
 
     ft_path = 'G:/data/movieNet/ImageNet_shot.pkl'
-    ft_path_t = 'G:/data/movieNet/Gemma3_Bert_shot.pkl'
+    ft_path_t = 'G:/data/movieNet/Gemma3_shot.pkl'
     lb_path = 'G:/data/movieNet/scene318/label318'
     gph_path = 'G:/third/tool/N/N_20'
     gph_path_t = 'G:/third/tool/N/N_20_t_gemma3'
