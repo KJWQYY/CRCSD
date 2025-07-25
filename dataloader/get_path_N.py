@@ -129,7 +129,7 @@ if __name__=='__main__':
 
 
     ft_path = 'G:/data/movieNet/ImageNet_shot.pkl'
-    lb_path = 'G:/data/movieNet/scene318/data-20241010T134021Z-001/data/scene318/label318'
+    lb_path = 'G:/data/movieNet/scene318/label318'
     path = 'G:/third/tool/N/N_20'
     seg_sz = 20
     l = 10
