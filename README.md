@@ -14,6 +14,8 @@ The project requires about 220G storage and 30G memory to run
 2. Extract board features.Using Gemma-3-4B to build a constrained shot description, we will provide a Shotboard.  
 3. Download MovieNet dataset label: https://drive.google.com/drive/folders/1F-uqCKnhtSdQKcDUiL3dRcLOrAxHargz  
 4. Generate dataset using CRCSD/dataloader/supervised_get_movienet.py
+## Model
+https://pan.baidu.com/s/1aaYTDD7I6lbIWCovUGt92Q Code: ed33
 
 ## Train and Test
 run CRCSD/main.py
