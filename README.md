@@ -16,6 +16,7 @@ The project requires about 220G storage and 30G memory to run
 4. Generate dataset using CRCSD/dataloader/supervised_get_movienet.py
 ## Model
 https://pan.baidu.com/s/1aaYTDD7I6lbIWCovUGt92Q Code: ed33
-
+## Graph
+https://pan.baidu.com/s/1KrInxlAyeLalKwsgx9pnOQ Code: n6q4
 ## Train and Test
 run CRCSD/main.py
