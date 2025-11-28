@@ -11,7 +11,7 @@ The project requires about 220G storage and 30G memory to run
   
 ## Prepare Dataset
 1. Extract visual features.Backbone is ResNet-50 Pretrained on ImageNet.
-2. Extract board features.Using Gemma-3-4B to build a constrained shot description, we will provide a Shotboard.  
+2. Extract board features.Using Gemma-3-4B to build a constrained shot description. Our generated shot description:  https://pan.baidu.com/s/12ODIDMGF0t3jhVMTEPoJuw Code: yyck
 3. Download MovieNet dataset label: https://drive.google.com/drive/folders/1F-uqCKnhtSdQKcDUiL3dRcLOrAxHargz  
 4. Generate dataset using CRCSD/dataloader/supervised_get_movienet.py
 ## Model
