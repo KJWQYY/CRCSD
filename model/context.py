@@ -17,10 +17,7 @@ class ClueFusion(nn.Module):
         self.ffc = FeedForward(shot_dim, int(shot_dim*1.5), drop=att_drop)
         self.ffc_norm = Normalization(shot_dim, normalization='ln')
 
-        #
-        self.w_1 = nn.Linear(shot_dim, shot_dim)
-        self.w_2 = nn.Linear(shot_dim, shot_dim)
-        self.softmax = nn.Softmax(dim=-1)
+
 
 
     def forward(self, x, x_t, adj_sc, adj_ic, adj_sc_t, adj_sic_t,  sclue_1, iclue_1, sclue_1_t, iclue_1_t):
@@ -51,5 +48,6 @@ class ClueFusion(nn.Module):
         nn.init.xavier_uniform_(x.weight)
         if x.bias is not None:
             nn.init.constant_(x.bias, 0)
+
 
 
