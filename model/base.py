@@ -201,7 +201,7 @@ class ClueFeat(nn.Module):
 
 
         v = torch.einsum('bkt, btd->bkd', (sim, v))
-        v_t = torch.einsum('bkt, btd->bkd', (sim_t, v))
+        v_t = torch.einsum('bkt, btd->bkd', (sim_t, v_t))
 
         v = self.drop(v)
         v_t = self.drop(v_t)
@@ -383,5 +383,6 @@ class CAttention(nn.Module):
         # Weighted sum
         attention_output = torch.matmul(attention_weights, V)  # (512, 20, 2048)
         return attention_output
+
 
 
